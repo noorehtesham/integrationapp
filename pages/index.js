@@ -7,7 +7,7 @@ export default function Home() {
     window.dataLayer.push({
       event: 'request_demo_click',
     });
-    console.log("✅ Click event pushed");
+    console.log("Click event pushed");
   };
 
   return (
@@ -16,7 +16,7 @@ export default function Home() {
         <title>Request Demo</title>
       </Head>
       <main>
-        <h1>Welcome to the Demo Page</h1>
+        <h1>Demo Page</h1>
         <button onClick={handleClick}>Request Demo</button>
         <br />
         <Link href="/about">Go to About</Link>
